@@ -5,4 +5,3 @@ dist/
 .DS_Store
 # real config holds your API key — never commit it (keep tunnels.example.json instead)
 tunnels.json
-.github/workflows/  # 待 gh auth refresh -s workflow 后再纳入
