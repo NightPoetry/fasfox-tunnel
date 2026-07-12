@@ -1,0 +1,19 @@
+{
+  "name": "fasfox-tunnel",
+  "version": "1.0.0",
+  "description": "Tiny reverse tunnel client — expose any number of local ports to public URLs through a FasFox server. No public IP or domain needed.",
+  "bin": { "fasfox-tunnel": "src/index.js" },
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "license": "MIT",
+  "keywords": ["tunnel", "reverse-proxy", "ngrok", "frp", "fasfox", "expose", "localhost", "port-forwarding"],
+  "repository": { "type": "git", "url": "https://github.com/NightPoetry/fasfox-tunnel" }
+}

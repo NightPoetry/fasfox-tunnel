@@ -1,0 +1,8 @@
+{
+  "server": "wss://YOUR-FASFOX-HOST/area/_agent",
+  "key": "sk-YOUR-API-KEY",
+  "tunnels": [
+    { "id": "TUNNEL_ID_1", "local": "http://localhost:8090" },
+    { "id": "TUNNEL_ID_2", "local": "http://localhost:3000" }
+  ]
+}
