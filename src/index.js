@@ -7,7 +7,7 @@
 //   fasfox-tunnel --config tunnels.json          # many tunnels at once
 //
 // Per-tunnel Ed25519 keypair is generated locally; the private key never leaves the machine.
-// MIT licensed. See README for details.
+// Apache-2.0 licensed. See README for details.
 'use strict';
 const crypto = require('crypto');
 const fs = require('fs');
